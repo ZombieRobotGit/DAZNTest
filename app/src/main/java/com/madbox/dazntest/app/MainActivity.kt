@@ -57,7 +57,6 @@ fun NavigationGraph(navController: NavHostController) {
         composable(Screen.EventsScreen.route) {
             EventsScreen {
                 navController.navigateAvoidingBackStack(Screen.PlayerScreen.route)
-//                navigate(navController, Screen.PlayerScreen.route)
             }
         }
         composable(Screen.ScheduleScreen.route) {
@@ -142,12 +141,6 @@ fun navigate(navController: NavHostController, route: String) {
         restoreState = true
     }
 }
-
-
-//@Composable
-//fun RowScope.MyComposable(){
-//    NavigationBarItem(selected = , onClick = { /*TODO*/ }, icon = { /*TODO*/ })
-//}
 
 data class BottomNavigationData(
     val title: String,

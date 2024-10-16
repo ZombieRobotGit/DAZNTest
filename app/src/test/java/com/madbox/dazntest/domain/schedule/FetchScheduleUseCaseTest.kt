@@ -1,14 +1,9 @@
 package com.madbox.dazntest.domain.schedule
 
-import com.madbox.dazntest.app.Screen
 import com.madbox.dazntest.data.model.DataOrException
-import com.madbox.dazntest.data.model.EventDTO
-import com.madbox.dazntest.data.model.EventsDTO
 import com.madbox.dazntest.data.model.ScheduleDTO
 import com.madbox.dazntest.data.model.SchedulesDTO
 import com.madbox.dazntest.data.repository.ScheduleRepositoryInterface
-import com.madbox.dazntest.domain.events.FakeEventsRepository
-import com.madbox.dazntest.domain.events.FetchEventsUseCase
 import com.madbox.dazntest.domain.schedule.model.ScheduleFetchResult
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert

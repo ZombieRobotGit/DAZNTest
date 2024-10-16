@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DAZNTest</string>
+    <string name="content_description_events_icon">Events button icon</string>
+    <string name="content_description_schedule_icon">Schedule button icon</string>
+
+    <string name="events_screen_name">Events</string>
+    <string name="schedule_screen_name">Schedule</string>
+
+</resources>
